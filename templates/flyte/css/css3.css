@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+ul.j2store_products_container li {
+	transition: all 0.4s linear;
+}
+
+ul.j2store_products_container li:hover 
+
+{
+	-webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
+   -webkit-transition: all 0.4s linear;
+   -moz-transition: all 0.4s linear;
+   -o-transition: all 0.4s linear;
+   -ms-transition: all 0.4s linear;
+   transition: all 0.4s linear;
+}
+
+.icon-cart:before {
+    content: "";
+}

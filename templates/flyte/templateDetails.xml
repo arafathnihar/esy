@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>flyte</name>
+	<version>1.5</version>
+	<creationDate>04/09/2013</creationDate>
+	<author>VijayAnand</author>
+	<authorEmail>support@themeparrot.com</authorEmail>
+	<copyright>Copyright (C) 2013 - 2021 Weblogicx India Private Limited. All rights reserved.</copyright>
+	<description>Flyte Tees template</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>img</folder>	
+		<folder>js</folder>	
+		<folder>html</folder>	
+	</files>
+	<positions>
+	    <position>header-logo</position>
+	    <position>header-right</position>
+		<position>navigation</position>
+		<position>slideshow</position>
+		<position>content-top</position>
+		<position>top1</position>
+		<position>top2</position>
+		<position>top3</position>
+		<position>content-middle</position>
+		<position>content-bottom1</position>
+		<position>content-bottom2</position>
+		<position>content-bottom3</position>
+		<position>content-bottom4</position>
+	    <position>content-right</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom4</position>
+		<position>footer1</position>
+		<position>footer2</position>
+		<position>footer3</position>
+		<position>footer4</position>
+		<position>footer-logo</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_flyte.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_flyte.sys.ini</language>	
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			
+			
+				<field name="templateColor" class="" type="color" default="#DE6E53"
+					label="TPL_FLYTE_COLOR_LABEL"
+					description="TPL_FLYTE_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#FFFFFF"
+					label="TPL_FLYTE_BACKGROUND_COLOR_LABEL"
+					description="TPL_FLYTE_BACKGROUND_COLOR_DESC" />
+					
+				<field name="linkColor" class="" type="color" default="#4A4A4A"
+					label="TPL_FLYTE_LINK_COLOR_LABEL"
+					description="TPL_FLYTE_LINK_COLOR_DESC" />
+					
+				<field name="linkhoverColor" class="" type="color" default="#DE6D53"
+					label="TPL_FLYTE_LINK_HOVER_COLOR_LABEL"
+					description="TPL_FLYTE_LINK_HOVER_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default="templates/flyte/images/logo.png"
+					label="TPL_FLYTE_LOGO_LABEL"
+					description="TPL_FLYTE_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=" "
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+						
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />	
+					
+			    <field name="googleFont"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="TPL_PROTOSTAR_FONT_LABEL"
+					description="TPL_PROTOSTAR_FONT_DESC"
+				   >
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+					
+			    </field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans:400,300,600"
+					label="TPL_PROTOSTAR_FONT_NAME_LABEL"
+					description="TPL_PROTOSTAR_FONT_NAME_DESC" />
+			
+			
+			</fieldset>
+		
+		
+		
+		
+		</fields>
+	
+	</config>
+	
+</extension>
